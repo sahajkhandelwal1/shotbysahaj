@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* Ensures consistent sizing */
+            background-image: url('assets/IMG_5571.jpg'); /* Background image */
+            background-size: cover; /* Make the image cover the viewport */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Prevent image repetition */
+            height: 100vh; /* Ensure body takes up the full viewport height */
+            overflow: hidden; /* Prevent scrollbars from appearing due to small offsets */
+        }
+    </style>
+</head>
+<body>
+    <ul class="title">
+        Shot by Sahaj
+    </ul>
+
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+
+    <div class="nav-links" id="nav-menu">
+        <ul>
+            <li class="dropdown">
+                <a href="#photos" class="dropdown-toggle">Photography</a>
+                <ul class="dropdown-menu">
+                    <li><a href="natural-world.html">Natural World</a></li>
+                    <li><a href="city-life.html">City Life</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
