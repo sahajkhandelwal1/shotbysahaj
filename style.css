@@ -9,7 +9,11 @@
 /*font-family: "Chonburi", serif;*/
 
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
     font-family: "Poiret One", serif;
@@ -40,9 +44,26 @@ body {
 
 /*Desktop Nav*/
 
+.background {
+    position: fixed;  /* Ensures it covers the whole page */
+    top: 0;
+    left: 0;
+    width: 100vw;  /* Full width */
+    height: 100vh; /* Full height */
+    background-image: url('assets/IMG_6025.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(3px);
+    z-index: -1; /* Moves it behind other content */
+}
+
+
+
+
 .title {
     padding: 0;
-    padding-top: 120px;
+    padding-top: 17%;
     padding-left: 0;
     text-align: center;
     font-family: "Carattere", serif;
@@ -120,6 +141,7 @@ body {
     .title {
         font-size: 7rem; 
         line-height: 1.2; 
+        padding-top: 40%;
     }
 
     .links img {
@@ -140,7 +162,7 @@ body {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 389px) {
     .title {
         font-size: 5rem; 
     }
@@ -168,7 +190,7 @@ body {
 @media (max-width: 590px) {
     .secondary-links {
         display: none;
-    }
+    }    
 }
 
 @media (max-width: 335px) {
@@ -197,7 +219,7 @@ body {
 
 
 .mini-logo {
-    padding: 10px;
+    padding: 60px;
     padding-left: 40px;
     font-family: "Carattere", serif;
     font-weight: 100;
@@ -301,6 +323,11 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+
+    .title {
+        padding-top: 50%;
+    }
+
     .photo-gallery {
         column-count: 1;
     }
@@ -389,7 +416,7 @@ a:hover {
 
 .hamburger {
     position: fixed;
-    top: 60px;
+    top: 80px;
     right: 55px;
     width: 50px;
     height: 40px;
