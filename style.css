@@ -197,7 +197,7 @@ body {
 
 
 .mini-logo {
-    padding: 0px;
+    padding: 10px;
     padding-left: 40px;
     font-family: "Carattere", serif;
     font-weight: 100;
@@ -211,7 +211,7 @@ body {
 
 .nav-links {
     position: fixed;
-    top: 130px;
+    top: 120px;
     right: 37px;
     width: 280px;
     height: max-content;
@@ -307,7 +307,7 @@ a:hover {
 
     .mini-logo {
         font-size: 2rem;
-        padding-top: 20px;
+        padding-top: 30px;
     }
 
 
@@ -317,7 +317,7 @@ a:hover {
 
     .about-image {
         padding: 0 !important;
-        transform: translateX(18%);
+        transform: translate(18%, 10%);
     }
 
     .about-image img {
@@ -476,7 +476,7 @@ a:hover {
 .nav-arrow {
     position: absolute;
     top: 90%;
-    transform: translateY(-50%);
+    transform: translateY(-90%);
     color: #fff;
     font-size: 5rem;
     padding: 0%;
