@@ -339,7 +339,7 @@ a:hover {
 
     .about-image {
         padding: 0 !important;
-        transform: translate(18%, -30%);
+        transform: translate(18%, -20%);
     }
 
     
@@ -476,7 +476,7 @@ a:hover {
 .nav-arrow {
     position: absolute;
     top: 90%;
-    transform: translateY(-90%);
+    transform: translateY(-100%);
     color: #fff;
     font-size: 5rem;
     padding: 0%;
