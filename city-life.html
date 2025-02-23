@@ -8,21 +8,64 @@
 </head>
 <body>
 
-    City Life
-    <ul class="title">
+    <ul class="mini-logo">
         <a href="index.html">Shot by Sahaj</a>
     </ul>
-    <ul class="nav-links">
-        <li class="dropdown">
-            <a href="#photos" class="dropdown-toggle">Photography</a>
-            <ul class="dropdown-menu">
-                <li><a href="natural-world.html">Natural World</a></li>
-                <li><a href="city-life.html">City Life</a></li>
-            </ul>
-        </li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+
+    <div class="nav-links" id="nav-menu">
+        <ul>
+            <li class="dropdown">
+                <a href="#photos" class="dropdown-toggle">Photography</a>
+                <ul class="dropdown-menu">
+                    <li><a href="natural-world.html">Natural World</a></li>
+                    <li><a href="city-life.html">City Life</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <!-- <li><a href="contact.html">Contact</a></li> -->
+        </ul>
+    </div>
+
+
+    <div class="photo-gallery">
+        <img src="assets/IMG_2280.jpeg" class="zoomable">
+        <img src="assets/IMG_0081_jpg.jpeg" class="zoomable">
+        <img src="assets/IMG_0435_jpg.jpeg"class="zoomable">
+        <img src="assets/IMG_0218.jpg" class="zoomable">
+        <img src="assets/IMG_2183.jpeg" class="zoomable">
+        <img src="assets/IMG_1791.jpeg" class="zoomable">
+        <img src="assets/IMG_5464.jpeg" class="zoomable">
+        <img src="assets/IMG_0624.jpeg" class="zoomable">
+        <img src="assets/IMG_5462.jpeg" class="zoomable">
+        <img src="assets/IMG_1268.jpg" class="zoomable">
+        <img src="assets/Workplace.jpg" class="zoomable">
+        <img src="assets/IMG_5798.jpeg" class="zoomable">
+        <img src="assets/IMG_5465.jpeg" class="zoomable">
+        <img src="assets/IMG_2662.jpg" class="zoomable">
+        <img src="assets/IMG_5990.jpeg" class="zoomable">
+        
+        <img src="assets/IMG_3148.jpg" class="zoomable">
+        <img src="assets/IMG_0685.jpeg" class="zoomable">
+        <img src="assets/IMG_0528.jpg" class="zoomable">
+        <img src="assets/IMG_3377.jpeg" class="zoomable">
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Zoomed Image">
+    
+        <div class="nav-arrow left-arrow" id="prev-btn">&#8592;</div>
+        <div class="nav-arrow right-arrow" id="next-btn">&#8594;</div>
+    </div>
+
+
     <script src="script.js"></script>
 </body>
 </html>
