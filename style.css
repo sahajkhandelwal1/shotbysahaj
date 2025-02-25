@@ -87,7 +87,7 @@ body {
     align-items: center; 
     gap: 30px; 
     position: absolute; 
-    bottom: 250px;
+    bottom: 120px;
     left: 50%; 
     transform: translateX(-50%); 
     
