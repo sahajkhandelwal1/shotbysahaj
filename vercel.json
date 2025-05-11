@@ -1,9 +1,0 @@
-{
-    "rewrites": [
-      { "source": "/about", "destination": "/about.html" },
-      { "source": "/city-life", "destination": "/city-life.html" },
-      { "source": "/contact", "destination": "/contact.html" },
-      { "source": "/natural-world", "destination": "/natural-world.html" },
-      { "source": "/videography", "destination": "/videography.html" }
-    ]
-  }
