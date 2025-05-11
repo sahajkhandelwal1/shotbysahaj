@@ -1,0 +1,10 @@
+{
+    "redirects": [
+      { "source": "/about", "destination": "/about.html", "permanent": true },
+      { "source": "/city-life", "destination": "/city-life.html", "permanent": true },
+      { "source": "/contact", "destination": "/contact.html", "permanent": true },
+      { "source": "/natural-world", "destination": "/natural-world.html", "permanent": true },
+      { "source": "/videography", "destination": "/videography.html", "permanent": true }
+    ]
+  }
+  
